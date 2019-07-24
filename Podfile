@@ -1,6 +1,6 @@
 platform :ios, '10.0'
 
-target 'Treinamento-iOS' do
+target 'Parrot' do
 
   use_frameworks!
 

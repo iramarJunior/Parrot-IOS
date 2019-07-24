@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		513BDB14F8CC1C7E59CA5990 /* Pods_Treinamento_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B686BBC20317352F7F79AD3 /* Pods_Treinamento_iOS.framework */; };
+		8BA1CED054D11747F97BC226 /* Pods_Parrot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA03B032E3E2D19B8439B52 /* Pods_Parrot.framework */; };
 		F66C788922D8BC45001B5FDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66C788822D8BC45001B5FDA /* AppDelegate.swift */; };
 		F66C788B22D8BC45001B5FDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66C788A22D8BC45001B5FDA /* ViewController.swift */; };
 		F66C788E22D8BC45001B5FDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66C788C22D8BC45001B5FDA /* Main.storyboard */; };
@@ -23,8 +24,11 @@
 
 /* Begin PBXFileReference section */
 		08867C8207311481E6B791B1 /* Pods-Treinamento-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Treinamento-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Treinamento-iOS/Pods-Treinamento-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		3501A19E473B0DD533975384 /* Pods-Parrot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parrot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Parrot/Pods-Parrot.debug.xcconfig"; sourceTree = "<group>"; };
 		5B686BBC20317352F7F79AD3 /* Pods_Treinamento_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Treinamento_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F66C788522D8BC45001B5FDA /* Treinamento-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Treinamento-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FA03B032E3E2D19B8439B52 /* Pods_Parrot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parrot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F363BDE3FBECA43A1DA085ED /* Pods-Parrot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parrot.release.xcconfig"; path = "Pods/Target Support Files/Pods-Parrot/Pods-Parrot.release.xcconfig"; sourceTree = "<group>"; };
+		F66C788522D8BC45001B5FDA /* Parrot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parrot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F66C788822D8BC45001B5FDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F66C788A22D8BC45001B5FDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F66C788D22D8BC45001B5FDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,6 +50,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				513BDB14F8CC1C7E59CA5990 /* Pods_Treinamento_iOS.framework in Frameworks */,
+				8BA1CED054D11747F97BC226 /* Pods_Parrot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				5B686BBC20317352F7F79AD3 /* Pods_Treinamento_iOS.framework */,
+				8FA03B032E3E2D19B8439B52 /* Pods_Parrot.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -65,6 +71,8 @@
 			children = (
 				F7040D9000FD307B8EF255FF /* Pods-Treinamento-iOS.debug.xcconfig */,
 				08867C8207311481E6B791B1 /* Pods-Treinamento-iOS.release.xcconfig */,
+				3501A19E473B0DD533975384 /* Pods-Parrot.debug.xcconfig */,
+				F363BDE3FBECA43A1DA085ED /* Pods-Parrot.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -72,7 +80,7 @@
 		F66C787C22D8BC45001B5FDA = {
 			isa = PBXGroup;
 			children = (
-				F66C788722D8BC45001B5FDA /* Treinamento-iOS */,
+				F66C788722D8BC45001B5FDA /* Parrot */,
 				F66C788622D8BC45001B5FDA /* Products */,
 				1848EBBA3C8760435DF8BFFD /* Pods */,
 				02FCA4F6EA1DEE3E9F776267 /* Frameworks */,
@@ -82,12 +90,12 @@
 		F66C788622D8BC45001B5FDA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F66C788522D8BC45001B5FDA /* Treinamento-iOS.app */,
+				F66C788522D8BC45001B5FDA /* Parrot.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F66C788722D8BC45001B5FDA /* Treinamento-iOS */ = {
+		F66C788722D8BC45001B5FDA /* Parrot */ = {
 			isa = PBXGroup;
 			children = (
 				F66C789A22D8BC87001B5FDA /* Application */,
@@ -96,7 +104,7 @@
 				F66C789422D8BC4D001B5FDA /* Info.plist */,
 				F66C789122D8BC4D001B5FDA /* LaunchScreen.storyboard */,
 			);
-			path = "Treinamento-iOS";
+			path = Parrot;
 			sourceTree = "<group>";
 		};
 		F66C789A22D8BC87001B5FDA /* Application */ = {
@@ -141,9 +149,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F66C788422D8BC45001B5FDA /* Treinamento-iOS */ = {
+		F66C788422D8BC45001B5FDA /* Parrot */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F66C789722D8BC4D001B5FDA /* Build configuration list for PBXNativeTarget "Treinamento-iOS" */;
+			buildConfigurationList = F66C789722D8BC4D001B5FDA /* Build configuration list for PBXNativeTarget "Parrot" */;
 			buildPhases = (
 				D487A915581A49817D000189 /* [CP] Check Pods Manifest.lock */,
 				F66C78A222D8BFAA001B5FDA /* ShellScript */,
@@ -156,9 +164,9 @@
 			);
 			dependencies = (
 			);
-			name = "Treinamento-iOS";
+			name = Parrot;
 			productName = "Treinamento-iOS";
-			productReference = F66C788522D8BC45001B5FDA /* Treinamento-iOS.app */;
+			productReference = F66C788522D8BC45001B5FDA /* Parrot.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -176,7 +184,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F66C788022D8BC45001B5FDA /* Build configuration list for PBXProject "Treinamento-iOS" */;
+			buildConfigurationList = F66C788022D8BC45001B5FDA /* Build configuration list for PBXProject "Parrot" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -189,7 +197,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F66C788422D8BC45001B5FDA /* Treinamento-iOS */,
+				F66C788422D8BC45001B5FDA /* Parrot */,
 			);
 		};
 /* End PBXProject section */
@@ -225,7 +233,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Treinamento-iOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Parrot-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -240,13 +248,36 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Treinamento-iOS/Pods-Treinamento-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Parrot/Pods-Parrot-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MGSwipeTableCell/MGSwipeTableCell.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Reusable/Reusable.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Treinamento-iOS/Pods-Treinamento-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MGSwipeTableCell.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reusable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Treinamento-iOS/Pods-Treinamento-iOS-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Parrot/Pods-Parrot-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F66C78A222D8BFAA001B5FDA /* ShellScript */ = {
@@ -422,11 +453,11 @@
 		};
 		F66C789822D8BC4D001B5FDA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7040D9000FD307B8EF255FF /* Pods-Treinamento-iOS.debug.xcconfig */;
+			baseConfigurationReference = 3501A19E473B0DD533975384 /* Pods-Parrot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 39FX39LYGJ;
+				DEVELOPMENT_TEAM = 6EZ89E2F5S;
 				INFOPLIST_FILE = "Treinamento-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -441,11 +472,11 @@
 		};
 		F66C789922D8BC4D001B5FDA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08867C8207311481E6B791B1 /* Pods-Treinamento-iOS.release.xcconfig */;
+			baseConfigurationReference = F363BDE3FBECA43A1DA085ED /* Pods-Parrot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 39FX39LYGJ;
+				DEVELOPMENT_TEAM = 6EZ89E2F5S;
 				INFOPLIST_FILE = "Treinamento-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -461,7 +492,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F66C788022D8BC45001B5FDA /* Build configuration list for PBXProject "Treinamento-iOS" */ = {
+		F66C788022D8BC45001B5FDA /* Build configuration list for PBXProject "Parrot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F66C789522D8BC4D001B5FDA /* Debug */,
@@ -470,7 +501,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F66C789722D8BC4D001B5FDA /* Build configuration list for PBXNativeTarget "Treinamento-iOS" */ = {
+		F66C789722D8BC4D001B5FDA /* Build configuration list for PBXNativeTarget "Parrot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F66C789822D8BC4D001B5FDA /* Debug */,
