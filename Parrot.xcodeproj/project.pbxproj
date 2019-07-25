@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		830EB24822E9E32A00DAD74D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830EB24722E9E32A00DAD74D /* User.swift */; };
+		830EB24B22E9EF6500DAD74D /* AuthenticationRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830EB24A22E9EF6500DAD74D /* AuthenticationRequestFactory.swift */; };
 		8BA1CED054D11747F97BC226 /* Pods_Parrot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA03B032E3E2D19B8439B52 /* Pods_Parrot.framework */; };
 		F66C788922D8BC45001B5FDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66C788822D8BC45001B5FDA /* AppDelegate.swift */; };
-		F66C788B22D8BC45001B5FDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66C788A22D8BC45001B5FDA /* ViewController.swift */; };
-		F66C788E22D8BC45001B5FDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66C788C22D8BC45001B5FDA /* Main.storyboard */; };
+		F66C788B22D8BC45001B5FDA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66C788A22D8BC45001B5FDA /* LoginViewController.swift */; };
+		F66C788E22D8BC45001B5FDA /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66C788C22D8BC45001B5FDA /* Authentication.storyboard */; };
 		F66C789022D8BC4D001B5FDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F66C788F22D8BC4D001B5FDA /* Assets.xcassets */; };
 		F66C789322D8BC4D001B5FDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66C789122D8BC4D001B5FDA /* LaunchScreen.storyboard */; };
 		F66C789F22D8BE16001B5FDA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F66C789E22D8BE16001B5FDA /* Localizable.strings */; };
@@ -24,12 +26,14 @@
 /* Begin PBXFileReference section */
 		08867C8207311481E6B791B1 /* Pods-Parrot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parrot.release.xcconfig"; path = "Pods/Target Support Files/Pods-Parrot/Pods-Parrot.release.xcconfig"; sourceTree = "<group>"; };
 		3501A19E473B0DD533975384 /* Pods-Parrot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parrot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Parrot/Pods-Parrot.debug.xcconfig"; sourceTree = "<group>"; };
+		830EB24722E9E32A00DAD74D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		830EB24A22E9EF6500DAD74D /* AuthenticationRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationRequestFactory.swift; sourceTree = "<group>"; };
 		8FA03B032E3E2D19B8439B52 /* Pods_Parrot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parrot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F363BDE3FBECA43A1DA085ED /* Pods-Parrot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parrot.release.xcconfig"; path = "Pods/Target Support Files/Pods-Parrot/Pods-Parrot.release.xcconfig"; sourceTree = "<group>"; };
 		F66C788522D8BC45001B5FDA /* Parrot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parrot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F66C788822D8BC45001B5FDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F66C788A22D8BC45001B5FDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F66C788D22D8BC45001B5FDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F66C788A22D8BC45001B5FDA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F66C788D22D8BC45001B5FDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Authentication.storyboard; sourceTree = "<group>"; };
 		F66C788F22D8BC4D001B5FDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F66C789222D8BC4D001B5FDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F66C789422D8BC4D001B5FDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -73,6 +77,57 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		830EB24222E9E2D900DAD74D /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				F66C788C22D8BC45001B5FDA /* Authentication.storyboard */,
+				830EB24322E9E2EB00DAD74D /* Model */,
+				830EB24622E9E30A00DAD74D /* ViewModel */,
+				830EB24522E9E30100DAD74D /* Service */,
+				830EB24422E9E2F800DAD74D /* Controller */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		830EB24322E9E2EB00DAD74D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				830EB24722E9E32A00DAD74D /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		830EB24422E9E2F800DAD74D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F66C788A22D8BC45001B5FDA /* LoginViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		830EB24522E9E30100DAD74D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				830EB24A22E9EF6500DAD74D /* AuthenticationRequestFactory.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		830EB24622E9E30A00DAD74D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		830EB24922E9ED2A00DAD74D /* Launcher */ = {
+			isa = PBXGroup;
+			children = (
+				F66C789122D8BC4D001B5FDA /* LaunchScreen.storyboard */,
+			);
+			path = Launcher;
+			sourceTree = "<group>";
+		};
 		F66C787C22D8BC45001B5FDA = {
 			isa = PBXGroup;
 			children = (
@@ -94,11 +149,10 @@
 		F66C788722D8BC45001B5FDA /* Parrot */ = {
 			isa = PBXGroup;
 			children = (
+				830EB24922E9ED2A00DAD74D /* Launcher */,
 				F66C789A22D8BC87001B5FDA /* Application */,
-				F66C788A22D8BC45001B5FDA /* ViewController.swift */,
-				F66C788C22D8BC45001B5FDA /* Main.storyboard */,
+				830EB24222E9E2D900DAD74D /* Authentication */,
 				F66C789422D8BC4D001B5FDA /* Info.plist */,
-				F66C789122D8BC4D001B5FDA /* LaunchScreen.storyboard */,
 			);
 			path = Parrot;
 			sourceTree = "<group>";
@@ -161,7 +215,7 @@
 			dependencies = (
 			);
 			name = Parrot;
-			productName = "Parrot";
+			productName = Parrot;
 			productReference = F66C788522D8BC45001B5FDA /* Parrot.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -207,7 +261,7 @@
 				F66C78A122D8BE32001B5FDA /* Colors.json in Resources */,
 				F66C789F22D8BE16001B5FDA /* Localizable.strings in Resources */,
 				F66C789022D8BC4D001B5FDA /* Assets.xcassets in Resources */,
-				F66C788E22D8BC45001B5FDA /* Main.storyboard in Resources */,
+				F66C788E22D8BC45001B5FDA /* Authentication.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,21 +334,23 @@
 				F66C78A622D8CF65001B5FDA /* Storyboards.swift in Sources */,
 				F66C78A822D8CF65001B5FDA /* Colors.swift in Sources */,
 				F66C78AA22D8D453001B5FDA /* Assets.swift in Sources */,
-				F66C788B22D8BC45001B5FDA /* ViewController.swift in Sources */,
+				F66C788B22D8BC45001B5FDA /* LoginViewController.swift in Sources */,
 				F66C78A722D8CF65001B5FDA /* Localizable.swift in Sources */,
 				F66C788922D8BC45001B5FDA /* AppDelegate.swift in Sources */,
+				830EB24B22E9EF6500DAD74D /* AuthenticationRequestFactory.swift in Sources */,
+				830EB24822E9E32A00DAD74D /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F66C788C22D8BC45001B5FDA /* Main.storyboard */ = {
+		F66C788C22D8BC45001B5FDA /* Authentication.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F66C788D22D8BC45001B5FDA /* Base */,
 			);
-			name = Main.storyboard;
+			name = Authentication.storyboard;
 			sourceTree = "<group>";
 		};
 		F66C789122D8BC4D001B5FDA /* LaunchScreen.storyboard */ = {
@@ -431,7 +487,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6EZ89E2F5S;
-				INFOPLIST_FILE = "Parrot/Info.plist";
+				INFOPLIST_FILE = Parrot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +506,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6EZ89E2F5S;
-				INFOPLIST_FILE = "Parrot/Info.plist";
+				INFOPLIST_FILE = Parrot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
