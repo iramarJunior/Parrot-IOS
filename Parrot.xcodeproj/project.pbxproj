@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		513BDB14F8CC1C7E59CA5990 /* Pods_Treinamento_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B686BBC20317352F7F79AD3 /* Pods_Treinamento_iOS.framework */; };
 		8BA1CED054D11747F97BC226 /* Pods_Parrot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA03B032E3E2D19B8439B52 /* Pods_Parrot.framework */; };
 		F66C788922D8BC45001B5FDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66C788822D8BC45001B5FDA /* AppDelegate.swift */; };
 		F66C788B22D8BC45001B5FDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66C788A22D8BC45001B5FDA /* ViewController.swift */; };
@@ -23,9 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		08867C8207311481E6B791B1 /* Pods-Treinamento-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Treinamento-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Treinamento-iOS/Pods-Treinamento-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		08867C8207311481E6B791B1 /* Pods-Parrot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parrot.release.xcconfig"; path = "Pods/Target Support Files/Pods-Parrot/Pods-Parrot.release.xcconfig"; sourceTree = "<group>"; };
 		3501A19E473B0DD533975384 /* Pods-Parrot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parrot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Parrot/Pods-Parrot.debug.xcconfig"; sourceTree = "<group>"; };
-		5B686BBC20317352F7F79AD3 /* Pods_Treinamento_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Treinamento_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FA03B032E3E2D19B8439B52 /* Pods_Parrot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parrot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F363BDE3FBECA43A1DA085ED /* Pods-Parrot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parrot.release.xcconfig"; path = "Pods/Target Support Files/Pods-Parrot/Pods-Parrot.release.xcconfig"; sourceTree = "<group>"; };
 		F66C788522D8BC45001B5FDA /* Parrot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parrot.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,7 +39,7 @@
 		F66C78A422D8CF65001B5FDA /* Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
 		F66C78A522D8CF65001B5FDA /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		F66C78A922D8D453001B5FDA /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
-		F7040D9000FD307B8EF255FF /* Pods-Treinamento-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Treinamento-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Treinamento-iOS/Pods-Treinamento-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F7040D9000FD307B8EF255FF /* Pods-Parrot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parrot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Parrot/Pods-Parrot.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +47,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				513BDB14F8CC1C7E59CA5990 /* Pods_Treinamento_iOS.framework in Frameworks */,
 				8BA1CED054D11747F97BC226 /* Pods_Parrot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -60,7 +57,6 @@
 		02FCA4F6EA1DEE3E9F776267 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5B686BBC20317352F7F79AD3 /* Pods_Treinamento_iOS.framework */,
 				8FA03B032E3E2D19B8439B52 /* Pods_Parrot.framework */,
 			);
 			name = Frameworks;
@@ -69,8 +65,8 @@
 		1848EBBA3C8760435DF8BFFD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F7040D9000FD307B8EF255FF /* Pods-Treinamento-iOS.debug.xcconfig */,
-				08867C8207311481E6B791B1 /* Pods-Treinamento-iOS.release.xcconfig */,
+				F7040D9000FD307B8EF255FF /* Pods-Parrot.debug.xcconfig */,
+				08867C8207311481E6B791B1 /* Pods-Parrot.release.xcconfig */,
 				3501A19E473B0DD533975384 /* Pods-Parrot.debug.xcconfig */,
 				F363BDE3FBECA43A1DA085ED /* Pods-Parrot.release.xcconfig */,
 			);
@@ -165,7 +161,7 @@
 			dependencies = (
 			);
 			name = Parrot;
-			productName = "Treinamento-iOS";
+			productName = "Parrot";
 			productReference = F66C788522D8BC45001B5FDA /* Parrot.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -246,34 +242,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Treinamento-iOS/Pods-Treinamento-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Parrot/Pods-Parrot-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
-				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
-				"${BUILT_PRODUCTS_DIR}/MGSwipeTableCell/MGSwipeTableCell.framework",
-				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
-				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
-				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/Reusable/Reusable.framework",
-				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-Parrot/Pods-Parrot-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Treinamento-iOS/Pods-Treinamento-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MGSwipeTableCell.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reusable.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-Parrot/Pods-Parrot-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -458,7 +431,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6EZ89E2F5S;
-				INFOPLIST_FILE = "Treinamento-iOS/Info.plist";
+				INFOPLIST_FILE = "Parrot/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -477,7 +450,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6EZ89E2F5S;
-				INFOPLIST_FILE = "Treinamento-iOS/Info.plist";
+				INFOPLIST_FILE = "Parrot/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
