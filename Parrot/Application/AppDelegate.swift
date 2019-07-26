@@ -32,6 +32,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         print("DOCUMENTS: ", Realm.Configuration.defaultConfiguration.fileURL ?? "")
         
+        if SessionControl.isSessionActive {
+//            self.window?.rootViewController = UINavigationController(rootViewController: StoryboardScene.Contatos.contatosViewController.instantiate())
+        } else {
+            self.window?.rootViewController = StoryboardScene.Authentication.initialScene.instantiate()
+        }
+        self.window?.makeKeyAndVisible()
+        
         return true
     }
     

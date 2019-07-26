@@ -17,6 +17,7 @@ class User: Object, Mappable {
     @objc dynamic var username: String?
     @objc dynamic var email: String?
     @objc dynamic var password: String?
+    @objc dynamic var token: String?
     
     required convenience init?(map: Map) {
         self.init()
@@ -33,5 +34,6 @@ class User: Object, Mappable {
         self.username       <- map["username"]
         self.email          <- map["email"]
         self.password       <- map["password"]
+        self.token       <- map["token"]
     }
 }

@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		830EB24822E9E32A00DAD74D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830EB24722E9E32A00DAD74D /* User.swift */; };
 		830EB24B22E9EF6500DAD74D /* AuthenticationRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830EB24A22E9EF6500DAD74D /* AuthenticationRequestFactory.swift */; };
+		830EB24D22EB369B00DAD74D /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830EB24C22EB369B00DAD74D /* UserViewModel.swift */; };
+		830EB24F22EB39C100DAD74D /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830EB24E22EB39C100DAD74D /* AuthenticationService.swift */; };
+		830EB25122EB40E900DAD74D /* ScreenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830EB25022EB40E900DAD74D /* ScreenManager.swift */; };
+		830EB25322EB415D00DAD74D /* SessionControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830EB25222EB415D00DAD74D /* SessionControl.swift */; };
 		8BA1CED054D11747F97BC226 /* Pods_Parrot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA03B032E3E2D19B8439B52 /* Pods_Parrot.framework */; };
 		F66C788922D8BC45001B5FDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66C788822D8BC45001B5FDA /* AppDelegate.swift */; };
 		F66C788B22D8BC45001B5FDA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66C788A22D8BC45001B5FDA /* LoginViewController.swift */; };
@@ -28,6 +32,10 @@
 		3501A19E473B0DD533975384 /* Pods-Parrot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parrot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Parrot/Pods-Parrot.debug.xcconfig"; sourceTree = "<group>"; };
 		830EB24722E9E32A00DAD74D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		830EB24A22E9EF6500DAD74D /* AuthenticationRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationRequestFactory.swift; sourceTree = "<group>"; };
+		830EB24C22EB369B00DAD74D /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		830EB24E22EB39C100DAD74D /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		830EB25022EB40E900DAD74D /* ScreenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenManager.swift; sourceTree = "<group>"; };
+		830EB25222EB415D00DAD74D /* SessionControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionControl.swift; sourceTree = "<group>"; };
 		8FA03B032E3E2D19B8439B52 /* Pods_Parrot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parrot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F363BDE3FBECA43A1DA085ED /* Pods-Parrot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parrot.release.xcconfig"; path = "Pods/Target Support Files/Pods-Parrot/Pods-Parrot.release.xcconfig"; sourceTree = "<group>"; };
 		F66C788522D8BC45001B5FDA /* Parrot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parrot.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				830EB24A22E9EF6500DAD74D /* AuthenticationRequestFactory.swift */,
+				830EB24E22EB39C100DAD74D /* AuthenticationService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -116,6 +125,7 @@
 		830EB24622E9E30A00DAD74D /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				830EB24C22EB369B00DAD74D /* UserViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -161,6 +171,8 @@
 			isa = PBXGroup;
 			children = (
 				F66C788822D8BC45001B5FDA /* AppDelegate.swift */,
+				830EB25022EB40E900DAD74D /* ScreenManager.swift */,
+				830EB25222EB415D00DAD74D /* SessionControl.swift */,
 				F66C789B22D8BDA4001B5FDA /* Supporting Files */,
 			);
 			path = Application;
@@ -331,14 +343,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				830EB25322EB415D00DAD74D /* SessionControl.swift in Sources */,
 				F66C78A622D8CF65001B5FDA /* Storyboards.swift in Sources */,
 				F66C78A822D8CF65001B5FDA /* Colors.swift in Sources */,
 				F66C78AA22D8D453001B5FDA /* Assets.swift in Sources */,
 				F66C788B22D8BC45001B5FDA /* LoginViewController.swift in Sources */,
 				F66C78A722D8CF65001B5FDA /* Localizable.swift in Sources */,
 				F66C788922D8BC45001B5FDA /* AppDelegate.swift in Sources */,
+				830EB25122EB40E900DAD74D /* ScreenManager.swift in Sources */,
 				830EB24B22E9EF6500DAD74D /* AuthenticationRequestFactory.swift in Sources */,
+				830EB24D22EB369B00DAD74D /* UserViewModel.swift in Sources */,
 				830EB24822E9E32A00DAD74D /* User.swift in Sources */,
+				830EB24F22EB39C100DAD74D /* AuthenticationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
